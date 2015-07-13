@@ -85,3 +85,13 @@ body {
 .title {
 	color: white;
 }
+
+.half {
+	float: left;
+	width: 50%;
+}
+
+.section .half.centered #contents {
+	display:inline-block;
+	text-align: left;
+}
