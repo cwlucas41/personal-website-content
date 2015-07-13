@@ -56,7 +56,7 @@ body {
 	text-transform: uppercase;
 }
 
-.section, .customSection {
+.section, .headline, .customSection {
 	color: black;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -78,18 +78,10 @@ body {
 	margin-top: .5em;
 }
 
-.l1 {
+.section, .nesting {
 	padding-left: 50px;
 }
 
-.l2 {
-	padding-left: 100px;
-}
-
-.l3 {
-	padding-left: 150px;
-}
-
-.nested {
-	padding-left: 50px;
+.title {
+	color: white;
 }
