@@ -8,26 +8,24 @@ body {
 	background-color: #000033;
 	padding: 0em 1em 0em 1em;
 	position: relative;
-	top: 3em;
+	top: 4em;
 }
 
 .bar {
 	width: 100%;
-	background-color: #000033;
+	background-color: white;
 	position: fixed;
 	padding: .5em 0em .5em 0em;
 	top: 0;
 	left: 0;
-/*	-webkit-filter: opacity(.9);
-	filter: opacity(.9);
-	-webkit-filter: blur(2px);
-	filter: blur(2px);*/
+	-webkit-filter: opacity(.9);
+	filter: opacity(.97);
 }
 
 .barItem {
 	width: 25%;
 	float: left;
-	color: #fff;
+	color: #000033;
 	font-size: 1.5em;
 	line-height: 2em;
 }
@@ -37,7 +35,7 @@ body {
 }
 
 .barItem a:visited{
-	color: white;
+	color: #000033;
 }
 
 .barItem a:hover {
@@ -50,10 +48,15 @@ body {
 }
 
 .section {
-	padding: 1em 4em 1em 4em;
+	padding: 1em;
+}
+
+.headline h3 {
+	text-transform: uppercase;
 }
 
 .section, .customSection {
+	color: black;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -70,8 +73,8 @@ body {
 .headline {
 	color: white;
 	background-color: grey;
-	padding: 0em 4em 0em 4em;
-	margin-top: 1em;
+	padding: 0em 2em 0em 2em;
+	margin-top: .5em;
 }
 
 .l1 {
