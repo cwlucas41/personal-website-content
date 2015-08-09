@@ -78,7 +78,7 @@ body {
 	margin-top: .5em;
 }
 
-.section, .nesting {
+.section{
 	padding-left: 50px;
 }
 
@@ -103,4 +103,8 @@ body {
 
 .spaced {
 	margin: .5em 2em;
+}
+
+ul {
+	line-height: 150%;
 }
