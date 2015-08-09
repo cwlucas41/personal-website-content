@@ -89,9 +89,18 @@ body {
 .half {
 	float: left;
 	width: 50%;
+	padding: 0em 1.5em;
 }
 
 .section .half.centered #contents {
 	display:inline-block;
 	text-align: left;
+}
+
+.left {
+	float: left;
+}
+
+.spaced {
+	margin: .5em 2em;
 }

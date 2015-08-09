@@ -6,7 +6,7 @@
 	<meta name="author" content="Christopher Lucas">
 	<meta name="description" content="Several projects that Christopher Lucas has worked on.">
 	<meta name="keywords" content="Christopher Lucas, projects">
-	<meta http-equiv="refresh" content="3">
+	<!-- <meta http-equiv="refresh" content="3"> -->
 	<link rel="stylesheet" type="text/css" href="cwl.css">
 
 	<script>
@@ -38,30 +38,146 @@
 					<h3 class="centered">Contents</h3>
 					<ol class="nesting">
 						<li><a href="#PDQS">Product Development Quality System</a></li>
-						<li><a href="#app">iOS App and FileMaker Go Integration</a></li>
-						<li><a href="#site">This Site</a></li>
+						<li><a href="#Parks Racing">Formula SAE Race Team</a></li>
+						<li><a href="#site">My Website</a></li>
 					</ol>
 				</div>
 			</div>
 
 			<div class="half">
 				<h3 class="centered">Description</h3>
-				<p>This section contains several projects which showcase some of my skills. The listed projects that were for work are described carefully so as to be complient with all NDAs to which I am bound.</p>
+				<p>
+					This section contains several projects which showcase some of my skills.
+				</p>
 			</div>
-
-
 		</div>
 
 		<div id="PDQS" class="headline">
-			<h3>Product Development Quality System</h3>
+			<h2>Product Development Quality System (PDQS)</h2>
+			<div class="section">
+				<h3>Problem</h3>
+				<p>
+					While working for Qvolve it became apparent that a simple source control system would be useful for Qvolve's FileMaker developers as they work on other projects. Before PDQS, developers controlled versioning through duplication and renaming of files. This system worked, but was tedious and did not allow for external references to files, as their names changed often.
+				</p>
+				<p>
+					Qvolve needed a new method of source control that kept project filenames constant, allowed for version change documentation, and kept track of problems and bugs. It was also important that the system be graphics-based - as FileMaker itself is - so that developers would feel comfortable.
+				</p>
+			</div>
+			<div class="section">
+				<h3>Planning</h3>
+				<p>
+					During the planning phase I expanded the scope of the project from a simple version control system to a integrated development documentation tool. I envisioned the system would be the first tool the developers opened at the beginning of the work day and the last tool to be closed at the end of the day.
+				</p>
+				<p>
+					To make the system appealing to developers it needed a defined list of useful features. The features I identified were:
+					<ul>
+						<li>
+							<b>Version Control</b>
+							<p>
+								A module for documenting changes between versions of projects
+							</p>
+						</li>
+						<li>
+							<b>Issue Logging</b>
+							<p>
+								A module for documenting bugs and feature requests.
+							</p>
+						</li>
+						<li>
+							<b>Documents Linking</b>
+							<p>
+								A module for documenting resources that were helpful during development so that other developers can find them easily.
+							</p>
+						</li>
+						<li>
+							<b>System Conversations</b>
+							<p>
+								A module for conversing about the project in one place where the messages are retained for future reference.
+							</p>
+						</li>
+						<li>
+							<b>Automated Project Launching</b>
+							<p>
+								A feature for launching the projects directly from PDQS.
+							</p>
+						</li>
+					</ul>
+				</p>
+			</div>
+			<div class="section">
+				<h3>Implementation</h3>
+				<p>
+					I was able to implement all of these features as a single FileMaker solution. I designed the database backend to be understandable and extensible and the graphics frontend to be familiar for developers.
+				</p>
+				<p>
+					During implementation, I also added other features: such as automatic linking of resolved issues to the next committed version, conversations abour issues, and automatic version numbering. My design decisions allowed these changes to be made easily and quickly.
+				</p>
+			</div>
 		</div>
 
-		<div id="app" class="headline">
-			<h3>iOS App and FileMaker Go Integration</h3>
+		<div id="Parks Racing" class="headline">
+			<h2>Formula SAE Race Team</h2>
+			<div class="section">
+				<h3>2013 - 2014</h3>
+				<p>
+					Parks Racing is a Formula SAE team representing Parks College of Saint Louis University. As a freshman in Parks College there were many available clubs to join and Parks Racing did not seem very interesting to me. The club had bad leadership and had not produced a working car in several years. My friends were very interested in the club because they saw its potential. They were able to become the leaders in the club, ousting the previous executive-board, and started turing the club around.
+				</p>
+				<p>
+					During the second semester of my freshman year, my friends were working on the car for many hours every week; I had not yet become a member. Towards the end of the semester, the car was nearing completion and it looked as if the club would go to competition. However, among other things, the electrial system for the car had not been started. My friends asked me if I was interested in the project; I agreed to do it because I believed that they would get the car done in time for comptition if I helped them.
+				</p>
+				<p>
+					I began the project by studying the electrical diagram from the KTM engine that we were using. With the help of an engineer who was the mentor of the club, I disected the wiring diagram into subsystems; I then consulted the team to understand which subsystems were required for the car. After understanding the requirements, I started cutting apart the motor's wiring harness so that we could re-use the connectors on it. I then removed the connections to unnecessary components, matched up the connections to the components already on the car, and then started to splice together an extended harness that both fit the needs and form of the car.
+				</p>
+				<p>
+					I stayed three extra days after the end of the school year to work on the car, but I could not stay any longer because I had an internship. I was not able to fully complete the car's wiring harness, but I was able to teach another member of the club so that he could finish it. In the end, the car made it to the competition and was drivable, but a clutch failure kept the club from competing in dynamic events.
+				</p>
+			</div>
+			<div class="section">
+				<h3>2014 - 2015</h3>
+				<p>
+					During my sophomore year, the team decided to focus on sustainable car design. We decided to return to a design with a modular rear-end; the club had used a similar design in years past. We also recognized the need for more documentation and customized tooling so that in future years the car could be fabricated by other students who did not design the whole thing.
+				</p>
+				<p>
+					As a result of focusing on sustainability, we decided to produce a quality car over a two year period rather than rushing a car for competition as we had done the year before. We were able to convince the college administration to support us in this decision.
+				</p>
+				<p>
+					I started thepreliminary electrial work for the 2015 - 2017 car. The team chose to use a Honda F4i engine from a 2005 CBR200; I started analyzing its wiring harness and identifying unneeded components of the system.
+				</p>
+			</div>
+			<div class="section">
+				<h3>2015 - 2016</h3>
+				<p>
+					I was elected as the treasurer for the team. I look forward to manging budgets and orders. I will automate many of my duties using a well designed spreadsheet file.
+				</p>
+				<p>
+					I will also continue working on the wiring harness. I expect the harness to be complete before the end of the calendar year.
+				</p>
+			</div>
 		</div>
 
 		<div id="site" class="headline">
-			<h3>This Site</h3>
+			<h2>My website</h2>
+			<div class="section">
+				<h3>Learning Experience</h3>
+				<p>
+					During my senior year of high school, I independently studied web design. I taught myself basic web skills by building a site that was similar to this one in purpose.
+				</p>
+				<p>
+					I started by reading about HTML 5 and CSS 3. I was able to put together a site using only a text editor app on an iPad (my primary computing devide at the time). I bought domains from GoDaddy - though not the same domains that are used for this site - and found a free hosting service that had FTP access. Using these tools, I learned about web development, site adminstration, and the disapointing quality of free hosting services.
+				</p>
+				<p>
+					I used the site for about a year. The site had served its purpose to me because I was comfortable with basic web development and design.
+				</p>
+			</div>
+			<div class="section">
+				<h3>Current Site</h3>
+				<p>
+					While the purpose of my old site was educational, the purpose of this site is informational. I was motivated to make it by the desire to have select information about me that was publically available, easy to access, and not dependent on social networking platforms.
+				</p>
+				<p>
+					This site is entirely custom; I wrote the source files myself and uploaded them to my site using SFTP. I considered using a content managment system, but decided to do the work myself.
+				</p>
+			</div>
 		</div>
 	</div>
 
