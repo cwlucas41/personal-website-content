@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/cwlucas41
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.chriswlucas.com
+  * I am cwlucas41 (https://keybase.io/cwlucas41) on keybase.
+  * I have a public key with fingerprint 5802 8F6A 26B7 9EE1 31BC  D974 705B 5FF5 3B9D 4F9C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101520cd8fd7b8ad2eab68432550e4420bf0b8343bf656e98e50a8251ecbc3aac580a",
+      "fingerprint": "58028f6a26b79ee131bcd974705b5ff53b9d4f9c",
+      "host": "keybase.io",
+      "key_id": "705b5ff53b9d4f9c",
+      "kid": "0101520cd8fd7b8ad2eab68432550e4420bf0b8343bf656e98e50a8251ecbc3aac580a",
+      "uid": "3244689817144238fa78a497b657d319",
+      "username": "cwlucas41"
+    },
+    "service": {
+      "hostname": "www.chriswlucas.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1650755699,
+  "expire_in": 157680000,
+  "prev": "5a73b47de29e1fcf0f6ffc8854783cfd6ad9e59d81e42ada8d1524787d84f798",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIrAnicrZJbSBVBGMePWmKGEPmSVESLEcnB9ja7swckywqpqCCKCuk4szOji8fd
+0+6ei5mi1UMXukE3SroQ2QWjiINCgnRRKu0p7EHyqRv1UmJpdBGbNXvrsXkZ5pvf
+/z/f983XW5ATys+KtHW1XNx3elfWwMNLiRAmB71GATukQYg0CnV0aqMxQj0/WmcR
+ISKIkigBWTQJZETHEBGZIqxBVZEBEKmqyiJmIoaKqmCmAY0akAIRQRlI1MSmgpAJ
+oIiEsMAsu4a6cdeyfW7LgzJkGpI1rBuUSoqETWLoqi4CDBgDCjaIygyTC2sdL1Dw
+5DDyaKnl8Bg/RKfS+wf/n/NOTNkpsqpq0ICSLnGtAhnSIVINHWtAJ4pkBKBHXRvV
+U06bqVjCRJ4qCU1hgYeTlkmDzgalTCOpVKrUrHUt7w9aajr13CPuOr5jOjEO1Pp+
+3IsEBn5DfEpBcXTaK4otm/B+ckWSup7l2EJE4qTpW4G5pAFRB0AzjLBA03HLpVEr
+IICuQZGv4B2aDH4B6QpWdUJlg0rMZCLTGDMhBKoOFZMRDRGDAoNAiaoyIggS3lN+
+pxOoMt2AQlDdbtsRIipPE9VwS8+qsZGfcKnQ9OhB1YxQVn4od2Z2MGeh/Flz/k7f
+XZAX2n8rbY+fXlg01glnPzo7z3i/7ae8ctvjzcNu/87+o2+/dA1NOmu+Potebz8z
+6/upVa+KehZ+2g1vZ4b21J3YONHbOn/fgWPhG5eqh93B9gq/uW1N9QW0tjxZvHjt
+naInIyv24ka81B95aby5vOV8qn/zZEFJRU555WBe67my5W82vIiU9eaIbl1x+vLg
+28xwe7K1L5m8l8ntvtIyWtN94PmJgSV7StL3FvV2nOxMf54zU2+e+6vbfnfwY+Wh
+to6J9If2igcFO8ZLSs8c2dpSePVa2bJvJWc7JrT1C16v3pS96ynwjr9a6sdO3qyy
+ewbGYoX3+yp/rCieOBxeN9rBMj+2Hw7P/Q2y3Efk
+=n5Fq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cwlucas41
+
+==================================================================
