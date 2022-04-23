@@ -48,6 +48,10 @@ params:
     name: cwlucas41
   - id: linkedin
     name: cwlucas41
+  - id: keybase
+    url: https://keybase.io/cwlucas41
+  - id: twitter
+    name: cwlucas41
   rssAsSocialIcon: true
 
   dateFormat: 2006-01-02
