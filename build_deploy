@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#build
+hugo
+
+#deploy
+AWS_PROFILE=admin hugo deploy

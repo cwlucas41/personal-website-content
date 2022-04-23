@@ -1,0 +1,61 @@
+baseURL: https://www.chriswlucas.com/
+languageCode: en-us
+title: Chris Lucas
+
+theme: anubis
+
+paginate: 10
+enableRobotsTXT: true
+# TODO: gitinfo?
+
+permalinks:
+  posts: /:year/:month/:slug/
+
+menu:
+  main:
+  - name: About
+    pageRef: about
+    weight: 10
+  - name: Projects
+    pageRef: projects
+    weight: 20
+  # - name: Favorites
+  #   pageRef: tags/favorite
+  #   weight: 25
+  - name: Archive
+    pageRef: posts
+    weight: 30
+
+  footer:
+  - name: Categories
+    pageRef: categories
+    weight: 1
+  - name: Tags
+    pageRef: tags
+    weight: 2
+
+params:
+  author: Christopher Lucas
+
+  description: Chris Lucas' Blog # TODO: test embedding
+  email: chris@chriswlucas.com
+  # TODO: avatar?
+
+  social:
+  - id: email
+    name: chris@chriswlucas.com
+  - id: github
+    name: cwlucas41
+  - id: linkedin
+    name: cwlucas41
+  rssAsSocialIcon: true
+
+  dateFormat: 2006-01-02
+  copyCodeButton: true
+  style: light-without-switcher # TODO: fix code syntax
+
+deployment:
+  targets:
+  - name: cloudFront
+    URL: s3://chriswlucas.com-origin/?region=us-east-1
+    cloudFrontDistributionID: E2TJ2NWTOLW2J0
