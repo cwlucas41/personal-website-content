@@ -1,0 +1,19 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security@chriswlucas.com
+Encryption: https://keybase.io/cwlucas41/pgp_keys.asc
+Preferred-Languages: en
+Canonical: https://www.chriswlucas.com/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+wsBcBAABCgAGBQJiZNRQAAoJEDqct4CegpVeMeYIAINi4vkx0v4QnsOstfn9DVZs
+vVmxAUFOwnj43a0FLjIWS9S77pQ7NLiIkOTZ7cw6/IciHF2XYPKwW3rECRnV/J0r
+QUGLCJ0bvQdmwb0Mrxg9LE4KXb2oCsoZF98GePjn6aRmFfKLoSPFUHDzHrLt/5zq
+12w0JjANH3dTaiL4LUHu5N9K1ZLeCNoZqxLBP8EDDf8cP0UH3aRyATrYtDUFD5VQ
+3giOoEzJd8wpjSuiAlmLCjRQF2PXZjLZN+Yy0n9AXc7+NhvpuUFVepRA7XOKWZG3
+ljL2mU4DPTUQg+I2vErVmD27Ur2W8y8SFT+q+HyG4qzNeoCx0Of/ZqbCh26Znas=
+=+mb6
+-----END PGP SIGNATURE-----
