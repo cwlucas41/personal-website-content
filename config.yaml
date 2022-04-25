@@ -4,12 +4,10 @@ title: Chris Lucas
 
 theme: anubis
 
+uglyurls: true
 paginate: 10
 enableRobotsTXT: true
-# TODO: gitinfo?
-
-permalinks:
-  posts: /:year/:month/:slug/
+enableGitInfo: true
 
 menu:
   main:
@@ -53,6 +51,8 @@ params:
   - id: linkedin
     name: cwlucas41
   rssAsSocialIcon: true
+
+  readMore: true
 
   dateFormat: 2006-01-02
   copyCodeButton: true
