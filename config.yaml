@@ -46,11 +46,11 @@ params:
     name: chris@chriswlucas.com
   - id: github
     name: cwlucas41
-  - id: linkedin
-    name: cwlucas41
   - id: keybase
     url: https://keybase.io/cwlucas41
   - id: twitter
+    name: cwlucas41
+  - id: linkedin
     name: cwlucas41
   rssAsSocialIcon: true
 
