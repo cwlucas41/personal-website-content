@@ -1,3 +1,5 @@
+cwlucas41
+Christopher Lucas
 ==================================================================
 https://keybase.io/cwlucas41
 --------------------------------------------------------------------
@@ -6,7 +8,7 @@ I hereby claim:
 
   * I am an admin of https://www.chriswlucas.com
   * I am cwlucas41 (https://keybase.io/cwlucas41) on keybase.
-  * I have a public key with fingerprint 5802 8F6A 26B7 9EE1 31BC  D974 705B 5FF5 3B9D 4F9C
+  * I have a public key ASCEWDEfRRUxyX1c9ib90EvO_Q3nY1UNuh16pDsDkQ9pygo
 
 To do so, I am signing this object:
 
@@ -14,51 +16,39 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "0101520cd8fd7b8ad2eab68432550e4420bf0b8343bf656e98e50a8251ecbc3aac580a",
-      "fingerprint": "58028f6a26b79ee131bcd974705b5ff53b9d4f9c",
       "host": "keybase.io",
-      "key_id": "705b5ff53b9d4f9c",
-      "kid": "0101520cd8fd7b8ad2eab68432550e4420bf0b8343bf656e98e50a8251ecbc3aac580a",
+      "kid": "01208458311f451531c97d5cf626fdd04bcefd0de763550dba1d7aa43b03910f69ca0a",
       "uid": "3244689817144238fa78a497b657d319",
       "username": "cwlucas41"
     },
+    "merkle_root": {
+      "ctime": 1651016781,
+      "hash": "61a670e026628ba6f7dd57afbe732aea8055c03bd259fa7886234456addaef3d311e1a83fce18705ba3b479ef2268fb398f9d391b653ac681fe1460263812150",
+      "hash_meta": "41745ce1eaada87a4d0b8800a9d8a30ef1ed50d09da889f5f953b27226d881d5",
+      "seqno": 22369720
+    },
     "service": {
+      "entropy": "DYomucDNHV6Wo9WNu9r9K96P",
       "hostname": "www.chriswlucas.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
-  "ctime": 1650755699,
-  "expire_in": 157680000,
-  "prev": "5a73b47de29e1fcf0f6ffc8854783cfd6ad9e59d81e42ada8d1524787d84f798",
-  "seqno": 4,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.3"
+  },
+  "ctime": 1651016814,
+  "expire_in": 504576000,
+  "prev": "f158e2413e98aae3712ac94e1b205e7962f06f1e6745630df399ecf0637dd27b",
+  "seqno": 34,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.1.13
-Comment: https://keybase.io/crypto
-
-yMIrAnicrZJbSBVBGMePWmKGEPmSVESLEcnB9ja7swckywqpqCCKCuk4szOji8fd
-0+6ei5mi1UMXukE3SroQ2QWjiINCgnRRKu0p7EHyqRv1UmJpdBGbNXvrsXkZ5pvf
-/z/f983XW5ATys+KtHW1XNx3elfWwMNLiRAmB71GATukQYg0CnV0aqMxQj0/WmcR
-ISKIkigBWTQJZETHEBGZIqxBVZEBEKmqyiJmIoaKqmCmAY0akAIRQRlI1MSmgpAJ
-oIiEsMAsu4a6cdeyfW7LgzJkGpI1rBuUSoqETWLoqi4CDBgDCjaIygyTC2sdL1Dw
-5DDyaKnl8Bg/RKfS+wf/n/NOTNkpsqpq0ICSLnGtAhnSIVINHWtAJ4pkBKBHXRvV
-U06bqVjCRJ4qCU1hgYeTlkmDzgalTCOpVKrUrHUt7w9aajr13CPuOr5jOjEO1Pp+
-3IsEBn5DfEpBcXTaK4otm/B+ckWSup7l2EJE4qTpW4G5pAFRB0AzjLBA03HLpVEr
-IICuQZGv4B2aDH4B6QpWdUJlg0rMZCLTGDMhBKoOFZMRDRGDAoNAiaoyIggS3lN+
-pxOoMt2AQlDdbtsRIipPE9VwS8+qsZGfcKnQ9OhB1YxQVn4od2Z2MGeh/Flz/k7f
-XZAX2n8rbY+fXlg01glnPzo7z3i/7ae8ctvjzcNu/87+o2+/dA1NOmu+Potebz8z
-6/upVa+KehZ+2g1vZ4b21J3YONHbOn/fgWPhG5eqh93B9gq/uW1N9QW0tjxZvHjt
-naInIyv24ka81B95aby5vOV8qn/zZEFJRU555WBe67my5W82vIiU9eaIbl1x+vLg
-28xwe7K1L5m8l8ntvtIyWtN94PmJgSV7StL3FvV2nOxMf54zU2+e+6vbfnfwY+Wh
-to6J9If2igcFO8ZLSs8c2dpSePVa2bJvJWc7JrT1C16v3pS96ynwjr9a6sdO3qyy
-ewbGYoX3+yp/rCieOBxeN9rBMj+2Hw7P/Q2y3Efk
-=n5Fq
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghFgxH0UVMcl9XPYm/dBLzv0N52NVDbodeqQ7A5EPacoKp3BheWxvYWTESpcCIsQg8VjiQT6YquNxKslOGyBeeWLwbx5nRWMN85ns8GN90nvEIJ4n2NdNGr4x6kFt+StOxbIiG1gvOwnVZQXmQ+Z06M+OAgHCo3NpZ8RAt5jwKwQRak//wbR7YbVBVDmWVDTANKLtypkXvFpNLn0cJuFLERZT0QwsZ4l9TD/oAqdjG4E3L41nRZdNBPJRDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBLglg24g1TV43TF3A/bxN6KbcYAouMnIYabuifN6zg7o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
