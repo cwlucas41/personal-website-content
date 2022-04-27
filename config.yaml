@@ -8,6 +8,13 @@ paginate: 10
 enableRobotsTXT: true
 enableGitInfo: true
 
+markup:
+  goldmark:
+    extensions:
+      linkify: true
+  highlight:
+    style: monokailight
+
 menu:
   main:
   - name: About
@@ -34,7 +41,7 @@ menu:
 params:
   author: Christopher Lucas
 
-  description: Chris Lucas' Blog # TODO: test embedding
+  description: Chris Lucas' Blog # TODO: about.md shows up in HTML??
   email: chris@chriswlucas.com
   # TODO: avatar?
 
