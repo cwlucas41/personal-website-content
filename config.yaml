@@ -60,5 +60,5 @@ params:
 deployment:
   targets:
   - name: cloudFront
-    URL: s3://chriswlucas.com-origin/?region=us-east-1
+    URL: s3://www.chriswlucas.com/?region=us-east-1
     cloudFrontDistributionID: E2TJ2NWTOLW2J0
