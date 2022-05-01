@@ -4,6 +4,11 @@ date: 2022-04-21T19:15:19-07:00
 disable_feed: true
 ---
 
+## This website
+I self-host this website using various AWS services as the backend.
+
+See [posts tagged with 'website'](/tags/website/) for posts about the website itself.
+
 ## fireboard-viewer
 [FireBoard](https://www.fireboard.com/) is a commercially-available cloud-connected thermometer array that I use for BBQ. The mobile application to interact with the thermometer is sufficient for most use-cases, however I wanted more control over the temperature plots to do fun things like display the derivative of temperature. So, [fireboard-viewer](https://github.com/cwlucas41/fireboard-viewer) is a simple python script that I hacked together one day while smoking a brisket that interacts with the fireboard API and gives me full access to the temperature data.
 

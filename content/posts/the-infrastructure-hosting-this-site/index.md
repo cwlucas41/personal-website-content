@@ -1,7 +1,11 @@
 ---
 title: "The Infrastructure Hosting This Site"
 date: 2022-05-01T01:02:41-07:00
-draft: false
+categories:
+- 'tech'
+tags:
+- 'website'
+- 'infrastructure'
 ---
 <!--summary-->
 
