@@ -16,6 +16,11 @@ content for [www.chriswlucas.com](https://www.chriswlucas.com). Powered by hugo.
 hugo new posts/$pageName/index.md
 ```
 
+## Publish
+```bash
+./publish
+```
+
 ## TODO
 * 
 

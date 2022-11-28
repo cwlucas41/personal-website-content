@@ -4,4 +4,5 @@
 hugo --cleanDestinationDir
 
 # deploy
+# TODO: don't deploy with admin
 AWS_PROFILE=admin hugo deploy
