@@ -8,8 +8,13 @@ content for [www.chriswlucas.com](https://www.chriswlucas.com). Powered by hugo.
     ```bash
     git clone --recurse-submodules git@github.com:cwlucas41/personal-website-content.git
     cd personal-website-content
-    hugo server
+    hugo server --buildDrafts
     ```
+    
+## New content
+```bash
+hugo new posts/$pageName/index.md
+```
 
 ## TODO
 * 
