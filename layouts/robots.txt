@@ -1,0 +1,3 @@
+User-agent: *
+Allow:
+Sitemap: https://www.chriswlucas.com/sitemap.xml

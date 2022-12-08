@@ -2,6 +2,7 @@
 title: "Projects"
 date: 2022-04-21T19:15:19-07:00
 disable_feed: true
+disableComments: true
 ---
 
 ## This website

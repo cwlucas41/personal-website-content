@@ -2,6 +2,7 @@
 title: "About"
 date: 2022-04-21T18:26:59-07:00
 disable_feed: true
+disableComments: true
 ---
 
 
