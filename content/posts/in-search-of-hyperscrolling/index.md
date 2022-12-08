@@ -1,10 +1,11 @@
 ---
 title: "In Search of Hyperscrolling"
 date: 2022-11-27T19:17:55-08:00
+description: "Solutions for fast scrolling with a trackball"
 categories:
 - 'tech'
 tags:
-- 'trackball'
+- 'ergonomics'
 - 'firmware'
 ---
 <!--summary-->
@@ -67,7 +68,7 @@ The solution? Just as hyperscrolling is a hardware feature on the Logitech mice,
 ## Customizable firmware
 I eventually found the [Ploopy classic-trackball](https://ploopy.co/classic-trackball/). It is about the same size as my previous, Elecom trackball which is why I chose that specific model, but there are also other models in different sizes and configurations. It has a customized keymap from the developers to enable something they call "Drag Scroll"[^2] which sounded promising, but the firmware is also completely customizable so I knew I'd be able to configure it the way I want through writing some code.
 
-I was worried about there only being five mouse buttons (left [MB1], middle[MB2], and right click[MB3] + back [MB4] and forward [MB5]) because I thought I'd have to lose one of those function to have an "enable drag scroll" button. I figured that even if that's how the drag scroll keymap worked, I could customize the firmware do do something like "only go into drag scroll when forward and back are pressed at about the same time".
+I was worried about there only being five mouse buttons (left [MB1], middle[MB2], and right click[MB3] + back [MB4] and forward [MB5]) because I thought I'd have to lose one of those function to have an "enable drag scroll" button. I figured that even if that's how the drag scroll keymap worked, I could customize the firmware to do something like "only go into drag scroll when forward and back are pressed at about the same time".
 
 That fear turned out to be unfounded! After building the drag scroll keymap and flashing it onto the device[^3], I found that the actual behavior allows the "forward" button still function normally if pressed and released quickly. When held it chords to activate a second layer of functionality where "left click" then puts the trackball into drag scroll mode and the forward event does not happen [^4].
 
