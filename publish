@@ -1,7 +1,36 @@
 #!/bin/sh
 
-# clean build
-hugo --cleanDestinationDir
+# Define terminal colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
 
-# deploy
-hugo deploy
+hugo --cleanDestinationDir --baseURL https://beta.chriswlucas.com/ && hugo deploy --target=beta --confirm
+
+if [ $? -eq 0 ]; then
+  echo "${GREEN}Beta deployment completed successfully.${NC}"
+else
+  echo "${RED}Beta deployment failed.${NC}"
+  exit 1
+fi
+
+echo
+echo "${YELLOW}Please check the beta site (https://beta.chriswlucas.com/) to ensure everything looks correct.${NC}"
+echo "${YELLOW}Do you want to continue and deploy to production? (y/n): ${NC}"
+read confirm
+
+# Exit if the user does not confirm
+if [ "$confirm" != "y" ] && [ "$confirm" != "Y" ]; then
+  echo "${RED}Deployment to production cancelled.${NC}"
+  exit 1
+fi
+
+hugo --cleanDestinationDir && hugo deploy --target=prod --confirm
+
+if [ $? -eq 0 ]; then
+  echo "${GREEN}Production deployment completed successfully.${NC}"
+else
+  echo "${RED}Production deployment failed.${NC}"
+  exit 1
+fi

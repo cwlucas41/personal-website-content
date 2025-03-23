@@ -1,72 +1,58 @@
 baseURL: https://www.chriswlucas.com/
 languageCode: en-us
 title: Chris Lucas
-
-theme: anubis
-
-paginate: 10
+theme: hugo-xmin
 enableRobotsTXT: true
-enableGitInfo: true
-disqusShortname: chriswlucas
-
-markup:
-  goldmark:
-    extensions:
-      linkify: true
-  highlight:
-    style: monokailight
 
 menu:
   main:
-  - name: About
-    pageRef: about
-    weight: 10
-  - name: Projects
-    pageRef: projects
-    weight: 20
-  # - name: Favorites
-  #   pageRef: tags/favorite
-  #   weight: 25
-  - name: Archive
-    pageRef: posts
-    weight: 30
-
-  footer:
-  - name: Categories
-    pageRef: categories
+  - name: Home
+    url: ""
     weight: 1
-  - name: Tags
-    pageRef: tags
+  - name: Projects
+    url: "projects/"
     weight: 2
+  - name: Categories
+    url: "categories/"
+    weight: 3
+  - name: Tags
+    url: "tags/"
+    weight: 4
+  - name: RSS
+    url: "index.xml"
+    weight: 5
 
 params:
-  author: Christopher Lucas
+  author:
+    email: chris@chriswlucas.com
+    name: Chris Lucas
+  description: "Chris Lucas' Blog"
+  footer: "&copy; [Christopher Lucas](https://www.chriswlucas.com) 2014 -- {Year}"
 
-  description: Chris Lucas' Blog # TODO: about.md shows up in HTML??
-  email: chris@chriswlucas.com
-  # TODO: avatar?
-
-  social:
-  - id: email
-    name: chris@chriswlucas.com
-  - id: github
-    name: cwlucas41
-  - id: keybase
-    url: https://keybase.io/cwlucas41
-  - id: twitter
-    name: cwlucas41
-  - id: linkedin
-    name: cwlucas41
-  rssAsSocialIcon: true
-
-  readMore: true
-
-  dateFormat: 2006-01-02
-  copyCodeButton: true
-  style: light-without-switcher # TODO: fix code syntax
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
 
 deployment:
   targets:
-  - name: cloudFront
+  - name: beta
+    URL: s3://beta.chriswlucas.com/?region=us-east-1
+    cloudFrontDistributionID: E1YT1E39YVRW0L
+  - name: prod
     URL: s3://www.chriswlucas.com/?region=us-east-1
     cloudFrontDistributionID: E2TJ2NWTOLW2J0

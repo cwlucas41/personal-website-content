@@ -1,7 +1,6 @@
 ---
 title: "In Search of Hyperscrolling"
 date: 2022-11-27T19:17:55-08:00
-description: "Solutions for fast scrolling with a trackball"
 categories:
 - 'tech'
 tags:

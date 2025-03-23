@@ -1,8 +1,7 @@
 ---
 title: "Projects"
-date: 2022-04-21T19:15:19-07:00
-disable_feed: true
-disableComments: true
+build:
+    list: never
 ---
 
 ## This website
@@ -21,4 +20,4 @@ See [posts tagged with 'website'](/tags/website/) for posts about the website it
 ## Context Aware Synonym Suggester (CASS)
 [CASS](https://github.com/cwlucas41/CASS) is a synonym suggester for LibreOffice that uses the context of the words and sentences around a target word to help identify the sense/meaning of the target word and then prioritize synonyms with the detected meaning. Word processors including LibreOffice and Microsoft Word don't do a great job of providing useful synonyms for words with multiple meanings. CASS is able to offer better suggestions by applying word sense disambiguation algorithms to the context around the target word.
 
-*CASS was a goup capstone project that counted toward my secondary major of Computer Science on my Bachelor of Science degree.*
+*CASS was a group capstone project that counted toward my secondary major of Computer Science on my Bachelor of Science degree.*
